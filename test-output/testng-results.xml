@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Request Body has been Specified]]>
+    </line>
+    <line>
+      <![CDATA[Request Url has been sent]]>
+    </line>
+    <line>
+      <![CDATA[Post request has been Done]]>
+    </line>
+    <line>
+      <![CDATA[Got Status Code :200]]>
+    </line>
+    <line>
+      <![CDATA[Got Response Body :{
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5pbHNvbkBlbWFpbC5jb20iLCJwYXNzd29yZCI6Im5pbHNvbiIsImlhdCI6MTYwNTE1NTA5MSwiZXhwIjoxNjA1MTU4NjkxfQ.wI4JKFqNJ4hYjfEV-JSWe8n6yzmT8JTYd6H0QF53CI0"
+}]]>
+    </line>
+    <line>
+      <![CDATA[Got access Token]]>
+    </line>
+    <line>
+      <![CDATA[Access Token has been written to the json file]]>
+    </line>
+    <line>
+      <![CDATA[File has been Closed]]>
+    </line>
+    <line>
+      <![CDATA[Assertion Passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-11-12T04:24:50Z" name="Default suite" finished-at="2020-11-12T04:24:52Z" duration-ms="2062">
+    <groups>
+    </groups>
+    <test started-at="2020-11-12T04:24:50Z" name="Default test" finished-at="2020-11-12T04:24:52Z" duration-ms="2062">
+      <class name="com.atmecs.test.testscripts.LoginApi">
+        <test-method signature="testApi(java.lang.Object)[pri:0, instance:com.atmecs.test.testscripts.LoginApi@45dd4eda]" started-at="2020-11-12T04:24:50Z" name="testApi" data-provider="userLoginData" finished-at="2020-11-12T04:24:52Z" duration-ms="2032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"password":"nilson","email":"nilson@email.com"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Request Body has been Specified]]>
+            </line>
+            <line>
+              <![CDATA[Request Url has been sent]]>
+            </line>
+            <line>
+              <![CDATA[Post request has been Done]]>
+            </line>
+            <line>
+              <![CDATA[Got Status Code :200]]>
+            </line>
+            <line>
+              <![CDATA[Got Response Body :{
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5pbHNvbkBlbWFpbC5jb20iLCJwYXNzd29yZCI6Im5pbHNvbiIsImlhdCI6MTYwNTE1NTA5MSwiZXhwIjoxNjA1MTU4NjkxfQ.wI4JKFqNJ4hYjfEV-JSWe8n6yzmT8JTYd6H0QF53CI0"
+}]]>
+            </line>
+            <line>
+              <![CDATA[Got access Token]]>
+            </line>
+            <line>
+              <![CDATA[Access Token has been written to the json file]]>
+            </line>
+            <line>
+              <![CDATA[File has been Closed]]>
+            </line>
+            <line>
+              <![CDATA[Assertion Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testApi -->
+      </class> <!-- com.atmecs.test.testscripts.LoginApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
